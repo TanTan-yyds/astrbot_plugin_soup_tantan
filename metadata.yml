@@ -1,0 +1,12 @@
+name: astrbot_plugin_soup_tantan
+display_name: "海龟汤"
+desc: 海龟汤推理游戏插件——支持汤品分类（清汤/红汤/黑汤/甜汤）与篇幅选择（长/中/短）
+author: TanTanMao
+version: "2.0.0"
+astrbot_version: ">=4.24"
+support_platforms:
+  - aiocqhttp
+  - qq_official
+tags:
+  - game
+  - puzzle
