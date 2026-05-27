@@ -1,0 +1,26 @@
+{
+  "api_url": {
+    "description": "海龟汤服务 API 地址",
+    "type": "string",
+    "hint": "推荐公共接口：https://hgt.tsc-mc.cn/api/soup",
+    "default": "https://hgt.tsc-mc.cn/api/soup"
+  },
+  "api_token": {
+    "description": "API 鉴权令牌",
+    "type": "string",
+    "hint": "Bearer Token。如使用推荐接口请至官网注册，邀请码：f8066708e692154f",
+    "default": ""
+  },
+  "judge_llm_provider": {
+    "description": "LLM 裁判模型 ID",
+    "type": "string",
+    "hint": "指定用于裁判提问的 LLM 提供商 ID，若留空则自动使用框架默认模型",
+    "default": "",
+    "_special": "select_provider"
+  },
+  "game_timeout": {
+    "description": "游戏超时时间（秒）",
+    "type": "int",
+    "default": 300
+  }
+}
